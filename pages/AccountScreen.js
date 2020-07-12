@@ -29,14 +29,7 @@ class AccountScreen extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    islogin: state.reducer.islogin,
-    contentlist: state.reducer.contentlist,
-    userinfo: state.reducer.userinfo,
-    qtyincart: state.reducer.qtyincart,
-    suggestData: state.reducer.suggestData,
-    suggestView: state.reducer.suggestView,
-    mainView: state.reducer.mainView,
-    searchResult: state.reducer.searchResult
+    userinfo: state.reducer.userinfo
   };
 };
 

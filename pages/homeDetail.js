@@ -33,8 +33,6 @@ HomeDetail.navigationOptions = {
 };
 const mapStateToProps = state => {
   return {
-    islogin: state.reducer.islogin,
-    contentlist: state.reducer.contentlist,
     userinfo: state.reducer.userinfo
   };
 };

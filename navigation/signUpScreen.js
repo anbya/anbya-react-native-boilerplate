@@ -11,7 +11,7 @@ import {
   BarIndicator
 } from 'react-native-indicators';
 
-class SignInScreen extends Component {
+class SignupScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -97,13 +97,13 @@ class SignInScreen extends Component {
   }
 }
 
-SignInScreen.navigationOptions = {
+SignupScreen.navigationOptions = {
   title: "Back",
   headerStyle: { backgroundColor: "#019cde" },
   headerTitleStyle: { color: "white" }
 };
-export default withNavigation(SignInScreen);
-SignInScreen.navigationOptions = {
+export default withNavigation(SignupScreen);
+SignupScreen.navigationOptions = {
   title: 'TRANSDEAL',
 
   headerLeft : 
