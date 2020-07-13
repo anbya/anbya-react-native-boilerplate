@@ -3,6 +3,7 @@ import { Image } from 'react-native';
 import { createStackNavigator  } from 'react-navigation';
 import signInScreen from './signInScreen';
 import signUpScreen from './signUpScreen';
+import Codesquare from '../assets/images/codeSquare.png'
 //--------------------------------------------------------------------------------//
 const HomeStack = createStackNavigator(
   {
@@ -13,8 +14,8 @@ const HomeStack = createStackNavigator(
    
         headerLeft : 
         <Image
-        source={{uri : 'https://transdeal.co.id/assets/imagesBase/transdealplane-white.png'}}
-        style={{ width: 40, height: 40, borderRadius: 40/2, marginLeft: 15}}
+        source={Codesquare}
+        style={{ width: 45, height: 20, marginLeft: 15}}
         />,
    
         headerStyle: {

@@ -6,6 +6,7 @@ import HomeScreen from '../pages/HomeScreen';
 import AccountScreen from '../pages/AccountScreen';
 import AccountDetail from '../pages/accountDetail';
 import HomeDetail from '../pages/homeDetail';
+import Codesquare from '../assets/images/codeSquare.png'
 
 const getTabBarIcon = (navigation, focused, tintColor) => {
   const { routeName } = navigation.state;
@@ -30,8 +31,8 @@ const HomeStack = createStackNavigator(
    
         headerLeft : 
         <Image
-        source={{uri : 'https://transdeal.co.id/assets/imagesBase/transdealplane-white.png'}}
-        style={{ width: 40, height: 40, borderRadius: 40/2, marginLeft: 15}}
+        source={Codesquare}
+        style={{ width: 45, height: 20, marginLeft: 15}}
         />,
    
         headerStyle: {
@@ -70,8 +71,8 @@ const AccountStack = createStackNavigator(
    
         headerLeft : 
         <Image
-        source={{uri : 'https://transdeal.co.id/assets/imagesBase/transdealplane-white.png'}}
-        style={{ width: 40, height: 40, borderRadius: 40/2, marginLeft: 15}}
+        source={Codesquare}
+        style={{ width: 45, height: 20, marginLeft: 15}}
         />,
    
         headerStyle: {

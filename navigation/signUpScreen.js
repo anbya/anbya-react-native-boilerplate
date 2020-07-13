@@ -103,21 +103,3 @@ SignupScreen.navigationOptions = {
   headerTitleStyle: { color: "white" }
 };
 export default withNavigation(SignupScreen);
-SignupScreen.navigationOptions = {
-  title: 'TRANSDEAL',
-
-  headerLeft : 
-  <Image
-  source={{uri : 'https://transdeal.co.id/assets/imagesBase/transdealplane-white.png'}}
-  style={{ width: 40, height: 40, borderRadius: 40/2, marginLeft: 15}}
-  />,
-
-  headerStyle: {
-
-    backgroundColor: '#019cde'
-
-  },
-
-headerTintColor: '#ffffff',
-
-};
