@@ -9,27 +9,27 @@ import {
     CardItem
   } from "native-base";
 //import all the basic component we have used
-class Cardlist extends React.Component {
+class Cardlistsatu extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
       artikelData: ["Item ke 1","Item ke 2","Item ke 3","Item ke 4","Item ke 5","Item ke 6","Item ke 7","Item ke 8","Item ke 9","Item ke 10"]
       };
-  } 
+  }
   render() {
-      const lebar = Dimensions.get("window").width / 2
+      const lebar = Dimensions.get("window").width / 3
     return (
         <ScrollView style={{flex:1, flexDirection:'row'}} horizontal={true} showsHorizontalScrollIndicator={false}>
             {this.state.artikelData.length > 0 && this.state.artikelData.map((artikeldata,index) =>
-                <View style={{padding:10}} key={index}>
+                <View style={{padding:2}} key={index}>
                     <Card style={{width:lebar}}>
                     <CardItem cardBody>
-                        <Image source={{uri: `https://transdeal.co.id/assets/img/detailbg.jpg`}} style={{height: 200, width: null, flex: 1}}/>
+                        <Image source={{uri: `https://transdeal.co.id/assets/img/detailbg.jpg`}} style={{height: lebar, width: lebar, flex: 1}}/>
                     </CardItem>
                     <CardItem cardBody>
-                        <View style={styles.padTopBottom}>
-                        <Text style={material.subheading,{color:"#000000",fontWeight:"bold",fontSize:15,margin:5}}>{artikeldata}</Text>
-                        <Text note numberOfLines={3} style={{textAlign:"justify",fontSize:15,margin:5}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
+                        <View style={{flex: 1,justifyContent: "center",alignItems:"center",padding:2}}>
+                            <Text numberOfLines={1} style={{color:"#000000",fontSize:15}}>{artikeldata}</Text>
+                            <Text style={{color:"#019cde",fontSize:15,fontWeight:"bold"}}>Rp xxx.xxx.xxx</Text>
                         </View>
                     </CardItem>
                     </Card>
@@ -52,4 +52,4 @@ const styles = StyleSheet.create({
       paddingBottom:10
     }
 })
-export default (Cardlist);
+export default (Cardlistsatu);

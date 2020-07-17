@@ -15,9 +15,11 @@ import { Entypo } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 import CarouselScreen from './carouselScreen'
-import Dummycomponent from './Dummycomponent'
 import Itemlist from './Itemlist'
+import Kategorilist from './kategorilist'
 import Cardlist from './Cardlist'
+import CardlistSatu from './CardlistSatu'
+import CardlistDua from './CardlistDua'
 import Personalcard from './Personalcard'
 
 //import all the basic component we have used
@@ -91,16 +93,9 @@ class HomeScreen extends React.Component {
                 <Row style={{padding:5}}>
                   <Col>
                     <Row>
-                      <Col style={{paddingLeft:10,paddingTop:5,paddingBottom:1,paddingRight:10}}>
-                        <View style={{ flex: 1, justifyContent: "center",alignItems:"flex-start"}}>
-                          <Text style={material.title}>Title section</Text>
-                        </View>
-                      </Col>
-                    </Row>
-                    <Row>
                       <Col size={7} style={{paddingLeft:10,paddingTop:1,paddingBottom:5,paddingRight:10}}>
                         <View style={{ flex: 1, justifyContent: "center",alignItems:"flex-start"}}>
-                          <Text style={material.subheading}>Subheading</Text>
+                          <Text style={{color:"#000000",fontSize:20,fontWeight:"bold"}}>Flashsale</Text>
                         </View>
                       </Col>
                       <Col size={3} style={{paddingLeft:10,paddingTop:1,paddingBottom:5,paddingRight:10}}>
@@ -115,22 +110,15 @@ class HomeScreen extends React.Component {
                 </Row>
                 <Row style={{padding:5}}>
                   <Col>
-                    <Cardlist />
+                    <CardlistSatu />
                   </Col>
                 </Row>
                 <Row style={{padding:5}}>
                   <Col>
                     <Row>
-                      <Col style={{paddingLeft:10,paddingTop:5,paddingBottom:1,paddingRight:10}}>
-                        <View style={{ flex: 1, justifyContent: "center",alignItems:"flex-start"}}>
-                          <Text style={material.title}>Title section</Text>
-                        </View>
-                      </Col>
-                    </Row>
-                    <Row>
                       <Col size={7} style={{paddingLeft:10,paddingTop:1,paddingBottom:5,paddingRight:10}}>
                         <View style={{ flex: 1, justifyContent: "center",alignItems:"flex-start"}}>
-                          <Text style={material.subheading}>Subheading</Text>
+                          <Text style={{color:"#000000",fontSize:20,fontWeight:"bold"}}>Kategori</Text>
                         </View>
                       </Col>
                       <Col size={3} style={{paddingLeft:10,paddingTop:1,paddingBottom:5,paddingRight:10}}>
@@ -145,7 +133,30 @@ class HomeScreen extends React.Component {
                 </Row>
                 <Row style={{padding:5}}>
                   <Col>
-                    <Cardlist />
+                    <Kategorilist />
+                  </Col>
+                </Row>
+                <Row style={{padding:5}}>
+                  <Col>
+                    <Row>
+                      <Col size={7} style={{paddingLeft:10,paddingTop:1,paddingBottom:5,paddingRight:10}}>
+                        <View style={{ flex: 1, justifyContent: "center",alignItems:"flex-start"}}>
+                          <Text style={{color:"#000000",fontSize:20,fontWeight:"bold"}}>Produk terlaris</Text>
+                        </View>
+                      </Col>
+                      <Col size={3} style={{paddingLeft:10,paddingTop:1,paddingBottom:5,paddingRight:10}}>
+                        <View style={{ flex: 1, justifyContent: "center",alignItems:"center"}}>
+                          <Button transparent onPress={() => alert("it's work")}>
+                            <Text style={{color:"#019cde",fontSize:15}}>Lihat semua</Text>
+                          </Button>
+                        </View>
+                      </Col>
+                    </Row>
+                  </Col>
+                </Row>
+                <Row style={{padding:5}}>
+                  <Col>
+                    <CardlistDua />
                   </Col>
                 </Row>
               </ScrollView>

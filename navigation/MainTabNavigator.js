@@ -28,26 +28,32 @@ const getTabBarIcon = (navigation, focused, tintColor) => {
 const HomeStack = createStackNavigator(
   {
     Home: {
-      screen: HomeScreen,
+      screen: HometestScreen, 
       navigationOptions: {
-        title: 'HOME',
-   
-        headerLeft : 
-        <Image
-        source={Codesquare}
-        style={{ width: 45, height: 20, marginLeft: 15}}
-        />,
-   
-        headerStyle: {
-   
-          backgroundColor: '#019cde'
-    
-        },
-   
-      headerTintColor: '#ffffff',
-   
+          header: null,
       },
     },
+    // Home: {
+    //   screen: HomeScreen,
+    //   navigationOptions: {
+    //     title: 'HOME',
+   
+    //     headerLeft : 
+    //     <Image
+    //     source={Codesquare}
+    //     style={{ width: 45, height: 20, marginLeft: 15}}
+    //     />,
+   
+    //     headerStyle: {
+   
+    //       backgroundColor: '#019cde'
+    
+    //     },
+   
+    //   headerTintColor: '#ffffff',
+   
+    //   },
+    // },
     HomeDetail: HomeDetail
   },{
     headerMode: 'screen' 
@@ -73,27 +79,6 @@ const HomeStesttack = createStackNavigator(
           header: null,
       },
     },
-    // Hometest: {
-    //   screen: HometestScreen,
-    //   navigationOptions: {
-    //     title: 'HOME TEST',
-   
-    //     headerLeft : 
-    //     <Image
-    //     source={Codesquare}
-    //     style={{ width: 45, height: 20, marginLeft: 15}}
-    //     />,
-   
-    //     headerStyle: {
-   
-    //       backgroundColor: '#019cde'
-    
-    //     },
-   
-    //   headerTintColor: '#ffffff',
-   
-    //   },
-    // },
     HomeDetail: HomeDetail
   },{
     headerMode: 'screen' 

@@ -15,17 +15,115 @@ class Itemlist extends React.Component {
   } 
   render() {
     return (
-        <ScrollView style={{flex:1, flexDirection:'row'}} horizontal={true} showsHorizontalScrollIndicator={false}>
-            {this.state.artikelData.length > 0 && this.state.artikelData.map((artikeldata,index) =>
-                <View style={{padding:10}} key={index}>
-                    <Button
-                    icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-                    buttonStyle={styles.button}
-                    title={artikeldata}
-                    titleStyle={{color:"#019cde", fontSize:15}}
-                    />
-                </View>
-            )}
+        <ScrollView style={{flex:1,flexDirection:'row'}} horizontal={true} showsHorizontalScrollIndicator={false}>
+          <View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 1"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 2"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+          </View>
+          <View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 3"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 4"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+          </View>
+          <View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 5"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 6"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+          </View>
+          <View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 7"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 8"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+          </View>
+          <View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 9"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 10"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+          </View>
+          <View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 11"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+            <View style={{padding:10}}>
+              <Button
+              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
+              buttonStyle={styles.button}
+              title="item ke 12"
+              titleStyle={{color:"#019cde", fontSize:15}}
+              />
+            </View>
+          </View>
         </ScrollView>
     );
   }

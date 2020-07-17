@@ -9,7 +9,7 @@ import {
     CardItem
   } from "native-base";
 //import all the basic component we have used
-class Cardlist extends React.Component {
+class Cardlistdua extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
@@ -52,4 +52,4 @@ const styles = StyleSheet.create({
       paddingBottom:10
     }
 })
-export default (Cardlist);
+export default (Cardlistdua);
