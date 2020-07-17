@@ -20,13 +20,13 @@ class kategoriList extends React.Component {
           <View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori satu</Text>
                 </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori dua</Text>
                 </TouchableOpacity>
             </View>
@@ -34,13 +34,13 @@ class kategoriList extends React.Component {
           <View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori tiga</Text>
                 </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori empat</Text>
                 </TouchableOpacity>
             </View>
@@ -48,13 +48,13 @@ class kategoriList extends React.Component {
           <View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori lima</Text>
                 </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori enam</Text>
                 </TouchableOpacity>
             </View>
@@ -62,13 +62,13 @@ class kategoriList extends React.Component {
           <View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori tujuh</Text>
                 </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori delapan</Text>
                 </TouchableOpacity>
             </View>
@@ -76,13 +76,13 @@ class kategoriList extends React.Component {
           <View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori sembilan</Text>
                 </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori sepuluh</Text>
                 </TouchableOpacity>
             </View>
@@ -90,13 +90,13 @@ class kategoriList extends React.Component {
           <View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori sebelas</Text>
                 </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
                 <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
-                    <FontAwesome5 name={"wallet"} size={15} color={"#019cde"} />
+                    <FontAwesome5 name={"box"} size={30} color={"#019cde"} />
                     <Text style={{color:"#5b5b5b",fontSize:15,textAlign:"center"}}>Kategori dua belas</Text>
                 </TouchableOpacity>
             </View>

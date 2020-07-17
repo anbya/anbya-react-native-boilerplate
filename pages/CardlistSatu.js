@@ -3,7 +3,8 @@ import React from 'react';
 //import react in our code.
 import { Text , View , ScrollView , StyleSheet , Image , Dimensions } from 'react-native'
 import { material } from 'react-native-typography'
-
+import { FontAwesome5 } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 import {
     Card,
     CardItem
@@ -18,18 +19,31 @@ class Cardlistsatu extends React.Component {
   }
   render() {
       const lebar = Dimensions.get("window").width / 3
+      const testLebar = 50
     return (
         <ScrollView style={{flex:1, flexDirection:'row'}} horizontal={true} showsHorizontalScrollIndicator={false}>
             {this.state.artikelData.length > 0 && this.state.artikelData.map((artikeldata,index) =>
                 <View style={{padding:2}} key={index}>
                     <Card style={{width:lebar}}>
                     <CardItem cardBody>
-                        <Image source={{uri: `https://transdeal.co.id/assets/img/detailbg.jpg`}} style={{height: lebar, width: lebar, flex: 1}}/>
+                        <Image source={{uri: `https://transdeal.co.id/assets/img/detailbg.jpg`}} style={{height: lebar, width: null, flex: 1}}/>
+                        <View style={{position:"absolute",top:2,left:2,flex:1,flexDirection:"row",alignItems:"center"}}>
+                            <MaterialCommunityIcons name={"sale"} size={25} color={"#019cde"} />
+                            <Text style={{color:"#019cde",fontSize:15,fontWeight:"bold"}}>Hot Product</Text>
+                        </View>
                     </CardItem>
                     <CardItem cardBody>
                         <View style={{flex: 1,justifyContent: "center",alignItems:"center",padding:2}}>
                             <Text numberOfLines={1} style={{color:"#000000",fontSize:15}}>{artikeldata}</Text>
                             <Text style={{color:"#019cde",fontSize:15,fontWeight:"bold"}}>Rp xxx.xxx.xxx</Text>
+                        </View>
+                    </CardItem>
+                    <CardItem cardBody style={{padding:10}}>
+                        <View style={{flex: 1,justifyContent: "center",alignItems:"flex-start",backgroundColor:"#cccccc"}}>
+                            <View style={{width: testLebar+"%", height: "100%", backgroundColor: "#019cde",position:"absolute"}} />
+                            <View style={{flex: 1,justifyContent: "center",alignItems:"center",width:"100%",position:"relative"}}>
+                                <Text style={{color:"#ffffff",fontSize:15,fontWeight:"bold"}}>xxx Terjual</Text>
+                            </View>
                         </View>
                     </CardItem>
                     </Card>

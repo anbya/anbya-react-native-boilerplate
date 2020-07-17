@@ -43,7 +43,7 @@ class HomeScreen extends React.Component {
                     <View style={{ flex: 1, justifyContent: "center",alignItems:"center",padding:10}}>
                       <Item style={{backgroundColor:"#ffffff",paddingLeft:10,paddingRight:10}}>
                         <Icon name="ios-search" />
-                        <Input placeholder="Search"/>
+                        <Input placeholder="Search" placeholderTextColor={"#019cde"} style={{color:"#019cde"}}/>
                       </Item>
                     </View>
                   </Col>
@@ -111,6 +111,11 @@ class HomeScreen extends React.Component {
                 <Row style={{padding:5}}>
                   <Col>
                     <CardlistSatu />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <CarouselScreen />
                   </Col>
                 </Row>
                 <Row style={{padding:5}}>

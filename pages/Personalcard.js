@@ -13,7 +13,6 @@ import {
 import { Col, Row, Grid } from 'react-native-easy-grid'
 import { FontAwesome } from "@expo/vector-icons";
 import { FontAwesome5 } from '@expo/vector-icons';
-import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 
 //import all the basic component we have used
 class Personalcard extends React.Component {
@@ -41,7 +40,7 @@ class Personalcard extends React.Component {
                     </Col>
                     <Col size={5} style={{padding:15}}>
                       <View style={{ flex: 1,flexDirection:"row",alignItems:"center"}}>
-                        <MaterialCommunityIcons name={"coin"} size={15} color={"#019cde"} />
+                        <FontAwesome5 name={"coins"} size={15} color={"#019cde"} />
                         <Text style={{color:"#000000",fontSize:15,fontWeight:"bold",marginLeft:5}}>xxx</Text>
                       </View>
                       <View style={{ flex: 1,flexDirection:"row",alignItems:"center"}}>

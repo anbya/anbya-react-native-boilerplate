@@ -1,9 +1,10 @@
 //This is an example code for Bottom Navigation//
 import React from 'react';
 //import react in our code.
-import { Text , View , ScrollView , StyleSheet } from 'react-native'
+import { Text , View , ScrollView , StyleSheet , TouchableOpacity , Dimensions } from 'react-native'
 import { material } from 'react-native-typography'
 import { Card, Icon, Button } from 'react-native-elements'
+import { FontAwesome5 } from '@expo/vector-icons';
 
 //import all the basic component we have used
 class Itemlist extends React.Component {
@@ -18,110 +19,86 @@ class Itemlist extends React.Component {
         <ScrollView style={{flex:1,flexDirection:'row'}} horizontal={true} showsHorizontalScrollIndicator={false}>
           <View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 1"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 1</Text>
+              </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 2"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 7</Text>
+              </TouchableOpacity>
             </View>
           </View>
           <View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 3"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 2</Text>
+              </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 4"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 8</Text>
+              </TouchableOpacity>
             </View>
           </View>
           <View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 5"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 3</Text>
+              </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 6"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 9</Text>
+              </TouchableOpacity>
             </View>
           </View>
           <View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 7"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 4</Text>
+              </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 8"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 10</Text>
+              </TouchableOpacity>
             </View>
           </View>
           <View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 9"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 5</Text>
+              </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 10"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 11</Text>
+              </TouchableOpacity>
             </View>
           </View>
           <View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 11"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 6</Text>
+              </TouchableOpacity>
             </View>
             <View style={{padding:10}}>
-              <Button
-              icon={<Icon name='plus-square' type='font-awesome' color='#019cde' size={25}/>}
-              buttonStyle={styles.button}
-              title="item ke 12"
-              titleStyle={{color:"#019cde", fontSize:15}}
-              />
+              <TouchableOpacity style={[styles.containerButton]} onPress={() => alert("it's work")}>
+                <FontAwesome5 name={"archive"} size={30} color={"#019cde"} />
+                <Text style={{color:"#019cde",fontSize:15,textAlign:"center",fontWeight:"bold"}}>Item ke 12</Text>
+              </TouchableOpacity>
             </View>
           </View>
         </ScrollView>
@@ -129,6 +106,7 @@ class Itemlist extends React.Component {
   }
 }
 
+const lebar = Dimensions.get("window").width / 4
 const styles = StyleSheet.create({
     button: {
       backgroundColor: '#FFFFFF',
@@ -136,6 +114,12 @@ const styles = StyleSheet.create({
       flexDirection: 'column',
       padding:1,
       margin:0
-    }
+    },
+    containerButton: {
+        backgroundColor: "transparent",
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center'
+      }
 })
 export default (Itemlist);
